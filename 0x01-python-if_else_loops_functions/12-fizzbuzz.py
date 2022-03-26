@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def fizzbuzz():
     """
-the classic FizzBuzz
-for multiples of 3 print fizz
-for multiples of 5 print buzz
-for numbers which are multiples of both print fizzbuzz
-for all other numbers, print them as they are
+The classic FizzBuzz
+For multiples of 3 print Fizz
+For multiples of 5 print Buzz
+For numbers which are multiples of both print FizzBuzz
+For all other numbers, print them as they are
 """
     print(' '.join([
         (i % 3 is 0) * 'Fizz' +
