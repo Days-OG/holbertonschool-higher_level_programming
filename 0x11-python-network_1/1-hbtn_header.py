@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-makes a request to a URL and displays the values of id header
+makes a request to a URL and displays the values of the X-Request-Id header
 '''
 
 import sys
@@ -13,4 +13,4 @@ if __name__ == '__main__':
         sys.exit(2)
 
         with urlopen(sys.argv[1]) as resp:
-            print(resp.getheader('X-request-Id'))
+            print(resp.getheader('X-Request-Id'))
