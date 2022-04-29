@@ -12,6 +12,6 @@ if __name__ == '__main__':
     with urlopen(URL) as r:
         body = r.read()
         print("Body response:")
-        print("\t- type", type(body))
+        print("\t- type:", type(body))
         print("\t- content:", body)
         print("\t- utf8 content:", body.decode())
