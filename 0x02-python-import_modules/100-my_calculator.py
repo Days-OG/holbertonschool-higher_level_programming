@@ -12,7 +12,7 @@ if __name__ == "__main__":
         a, op, b = argv[1:]
 
     except ValueError:
-        print("Usage: ./100-my_calculator.py <a><operator><b>")
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys_exit(1)
 
     try:
