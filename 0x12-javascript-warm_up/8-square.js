@@ -6,7 +6,7 @@ if (parseInt(myVar[2])) {
   for (let i = 0; i < myVar[2]; ++i) {
     while (j < myVar[2]) {
       j++;
-      string += 'x';
+      string += 'X';
     }
     console.log(string);
   }
