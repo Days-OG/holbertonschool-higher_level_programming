@@ -1,12 +1,6 @@
 #!/usr/bin/node
 const myVar = process.argv;
 function factorial (a) {
-  if (parseInt(myVar[2])) {
-    let fact = parseInt(myVar[2]);
-    for (let i = 1; i < myVar[2]; ++i) {
-      fact = fact * i;
-    }
-    console.log(fact);
-  }
+  return a === 0 || isNaN(a) ? 1 : a * factorial(a - 1);
 }
-factorial(myVar[2]);
+console.log(Number(factorial(myVar[2])));
